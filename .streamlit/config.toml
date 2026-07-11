@@ -1,0 +1,18 @@
+# ---------------------------------------------------------------------------
+# Streamlit theme — modern dark palette with a single indigo accent color.
+# This drives Streamlit's built-in widgets; app.py layers extra CSS on top.
+# ---------------------------------------------------------------------------
+[theme]
+base = "dark"
+primaryColor = "#6366f1"              # indigo accent (buttons, spinners, focus)
+backgroundColor = "#0f1420"           # main canvas
+secondaryBackgroundColor = "#171d2b"  # sidebar + cards / inputs
+textColor = "#e7e9f2"
+font = "sans serif"
+
+[client]
+# Hide the default Streamlit toolbar/"Deploy" chrome for a cleaner look.
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

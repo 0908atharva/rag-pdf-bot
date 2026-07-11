@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------
+# Pinned, mutually-compatible versions (LangChain 0.3.x ecosystem).
+# Install with:  pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+# --- Web UI ---
+streamlit==1.46.1
+
+# --- Environment / secrets loading ---
+python-dotenv==1.1.1
+
+# --- PDF text extraction ---
+pypdf==5.7.0
+
+# --- LangChain core + RAG chains ---
+langchain==0.3.27
+langchain-community==0.3.27
+
+# --- Vector store (Chroma), persisted to local disk ---
+langchain-chroma==0.2.0
+chromadb==0.5.23
+
+# --- LLM + embedding providers ---
+langchain-google-genai==2.1.5    # default provider: Google Gemini
+langchain-openai==0.3.28         # optional provider: OpenAI

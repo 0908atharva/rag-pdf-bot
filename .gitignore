@@ -1,0 +1,26 @@
+# --- Secrets: never commit real API keys ---
+.env
+
+# --- Persisted Chroma vector store ---
+chroma_db/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Local Claude Code settings (personal, not for sharing) ---
+.claude/settings.local.json
