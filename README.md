@@ -7,7 +7,7 @@ document, the bot says so instead of making something up.
 Built with **LangChain + ChromaDB + Streamlit**, and works with **Google Gemini
 (default)** or **OpenAI** via a single environment variable.
 
----
+-------
 
 ## ✨ Features
 
